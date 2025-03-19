@@ -5,7 +5,7 @@ function agregarAmigo() {
     let nombre = document.getElementById('amigo').value.trim();  
 
     if (nombre === '') {
-        alert('Por favor ingresa un nombre válido');
+        alert('Por favor ingresa un nombre correcto');
         return; 
     }
 
